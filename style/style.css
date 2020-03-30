@@ -206,3 +206,26 @@ ul.info-list {
 .info-list li span {
   margin-left: 0.5rem;
 }
+body
+{
+  background-image: linear-gradient(rgba(120,236,155),rgba(122,198,179));
+}
+.contact{
+  margin-bottom: 20px;
+}
+.form{
+display: flex;
+justify-content: center;
+}
+#name{
+  margin: 10px;
+}
+#email{
+  margin: 10px;
+}
+#msg{
+  margin: 10px;
+}
+#submit{
+  margin: 10px;
+}
