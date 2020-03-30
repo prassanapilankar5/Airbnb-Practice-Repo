@@ -139,10 +139,6 @@ h1 {
   font-weight: 500;
 }
 
-.info-item {
-  font-size: 1.05rem;
-}
-
 .section-description {
   font-size: 0.95rem;
 }
@@ -193,4 +189,20 @@ h1 {
 
 .current:hover::after {
   background: rgba(0, 0, 0, 0);
+}
+
+ul.info-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.info-item {
+  width: 50%;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.info-list li span {
+  margin-left: 0.5rem;
 }
